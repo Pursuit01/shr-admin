@@ -5,11 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "prepare": "husky install"
   },
   "dependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "core-js": "^3.8.3",
     "cz-customizable": "^6.3.0",
+    "husky": "^7.0.1",
     "vue": "^3.2.36",
     "vue-compiler-sfc": "^0.0.0",
     "vue-router": "^4.0.11",
